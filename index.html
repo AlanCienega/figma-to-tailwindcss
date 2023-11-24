@@ -245,19 +245,23 @@
       <div class="col-span-2 lg:col-span-1">
         <section>
           <div
-            class="h-20 mx-5 rounded-lg mt-3"
+            class="h-20 mx-5 rounded-lg mt-3 lg:flex lg:h-8 justify-around"
             style="border: 1px solid #4d5254"
           >
             <div
-              class="mx-4 flex justify-between items-center text-xs pb-3 mt-2"
-              style="border-bottom: 1px solid #4d5254"
+              class="mx-4 flex justify-between items-center text-xs pb-3 mt-2 border border-white border-b-neutral-500 lg:border-none"
             >
               <div>Free shipping</div>
-              <span style="color: #4d5254">|</span>
-              <img src="src/assets/lock.svg" class="h-3 w-3" alt="lock icon" />
+              <span class="text-neutral-400 lg:mx-2">|</span>
+              <img
+                src="src/assets/lock.svg"
+                class="h-3 w-3 lg:mx-1"
+                alt="lock icon"
+              />
               <div>Secure 256-bit SSL encryption</div>
             </div>
-            <div class="mx-4 flex justify-center mt-3">
+            <span class="text-neutral-400 hidden lg:flex">|</span>
+            <div class="mx-4 flex justify-center mt-3 lg:mt-0">
               <img src="src/assets/cards/visa.svg" alt="visa" />
               <img src="src/assets/cards/shopPay.svg" alt="shopPay" />
               <img src="src/assets/cards/paypal.svg" alt="paypal" />
